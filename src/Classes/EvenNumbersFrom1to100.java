@@ -1,0 +1,16 @@
+package Classes;
+
+public class EvenNumbersFrom1to100 {
+
+	public static void main(String[] args) {
+		System.out.println("Even numbers from 1 and 100 are: ");
+
+		for(int i =0; i<=100; i++) {
+			if(i %2 == 0) {
+				System.out.println(i + " ");
+			}
+
+		}
+
+	}
+}
